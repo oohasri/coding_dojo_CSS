@@ -1,0 +1,73 @@
+Given an array and a value Y, count and print the number of array values greater than Y.
+
+function countarrval(arr, y){
+	for(var i=0; i<arr.length; i++)
+	{
+		if(arr[i]>y){
+			count = count + 1;
+		}
+	}
+	console.log(count);	
+}
+var arr = [4,6,7,9];
+var y = 3;
+var count = 0;
+countarrval(arr, y);
+
+----------------------------------------------------------------------------------------------
+
+Given an array, print the max, min and average values for that array.
+
+var arr = [1,2,3,4];
+var sum=arr[0];
+var min=arr[0];
+var max=arr[0];
+function printvalues(arr){
+	for(var i =1; i<arr.length; i++)
+	{
+		if(arr[i] < min){
+			min = arr[i];
+		}
+		else if(arr[i] > max){
+			max = arr[i];
+		}
+		sum = sum + arr[i];
+	}
+	var average = sum/arr.length;
+	console.log("min value is ",min);
+	console.log("max value is ",max);
+	console.log("Average is ",average);
+}
+printvalues(arr);
+
+-----------------------------------------------------------------------------------------------
+Given an array of numbers, create a function that returns a new array where negative values were replaced with the string ‘Dojo’.   For example, replaceNegatives( [1,2,-3,-5,5]) should return [1,2, "Dojo", "Dojo", 5].
+
+var arr = [1,-3,-4,3,5];
+function replacenegatives(arr){
+	for(var i=0; i<arr.length; i++){
+		if(arr[i]<0){
+			arr[i]="Dojo";
+		}
+	}
+	return arr;
+}
+var a = replacenegatives(arr);
+console.log(a);
+
+---------------------------------------------------------------------------------------------
+Given array, and indices start and end, remove values in that index range, working in-place (hence shortening the array).  For example, removeVals([20,30,40,50,60,70],2,4) should return [20,30,70].
+
+var arr=[1,2,3,4,5,6,7,8,9,10];
+function removeindexrange(arr, start_index, end_index){
+	var new_arr= [];
+	for(var i = 0; i<arr.length; i++){
+		if((i<start_index) || (i>end_index)){
+			new_arr.push(arr[i]);
+		}
+	}
+	return new_arr;
+}
+var a = removeindexrange(arr, 3, 5);
+console.log(a);
+

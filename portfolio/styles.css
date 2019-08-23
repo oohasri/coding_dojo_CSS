@@ -1,0 +1,201 @@
+*{
+	/*outline: 2px solid red;*/
+	margin: 0px;
+	padding: 0px;
+}
+#container{
+	min-height: 1000px;
+	width: 930px;
+	display: block;
+	background-color: #efe6e6;
+	margin: 0px auto;
+}
+#header{
+	display: block;
+	height: 70px;
+	width: 930px;
+}
+#name{
+	display: inline-block;
+	text-align: left;
+	min-height: 60px;
+	width: 460px;
+	padding: 20px 0px 20px 20px;
+}
+#desc{
+	display: inline-block;
+	text-align: right;
+	min-height: 60px;
+	width: 420px;
+	/*padding: 20px 20px 20px 0px;*/
+}
+#maincontent{
+	/*background-color: #6d4a59;*/
+	background-image: linear-gradient(to right, #1f0e13, #6f5964);
+	width: 930px;
+	height: 840px;
+	display: block;
+}
+#profilepic{
+	display: inline-block;
+	height: 210px;
+	width: 350px;
+	padding: 20px;
+	margin: 20px 0px 20px 20px;
+	vertical-align: top;
+	border: 5px solid;
+	border-color: #ccadad;
+	background-image: url("photo_of_me.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+}
+#about{
+	display: inline-block;
+	height: 260px;
+	width: 460px;
+	padding: 0px;
+	margin: 20px;
+	vertical-align: top;
+}
+#apps{
+	display: block;
+	height: 400px;
+	width: 930px;
+	padding: 20px;
+	padding-top: 0px;
+}
+body{
+	margin: 20px;
+}
+#aboutheader{
+	display: block;
+  	background-image: linear-gradient(#a09fa7, #a2a2a9);
+	width: 460px;
+	height: 50px;
+	padding: 0px;
+}
+.aboutcontent{
+	display: block;
+	background-image: linear-gradient(#fefdfe, #daccd9);
+	width: 460px;
+	height: 210px;
+}
+h3{
+	color: #fefdfe;
+	text-align: left;
+	padding: 10px 0px 10px 10px;
+}
+p{
+	padding: 10px;
+	color: #3a4860;
+}
+a{
+	padding: 10px;
+	color: #3a4860;
+}
+#lamode{
+	display: inline-block;
+	height: 500px;
+	width: 280px;
+	padding: 0px 0px 20px 0px;
+	margin-right: 20px;
+	background-image: linear-gradient(#fefdfe, #daccd9);
+	vertical-align: top;
+}
+#familycontacts{
+	display: inline-block;
+	height: 500px;
+	width: 280px;
+	padding: 0px 0px 20px 0px;
+	margin-right: 20px;
+	background-image: linear-gradient(#fefdfe, #daccd9);
+	vertical-align: top;
+}
+#fiveeleven{
+	display: inline-block;
+	height: 500px;
+	width: 280px;
+	padding: 0px 0px 20px 0px;
+	padding-right: 0px;
+	background-image: linear-gradient(#fefdfe, #daccd9);
+}
+.appheader{
+	display: block;
+	height: 40px;
+	width: 280px;
+	background-image: linear-gradient(#a09fa7, #a2a2a9);
+	vertical-align: top;
+}
+img{
+	height: 150px;
+	width: 280px;
+}
+#subcontent{
+	display: block;
+	height: 70px;
+	width: 200;
+	padding: 10px;
+	margin: 30px;
+
+}
+.column {
+  float: left;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+#row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.pics{
+	width: 40px;
+	height: 40px;
+	padding: 0px;
+}
+.button{
+	height: 30px;
+	width: 	100px;
+	display: block;	
+	margin: 10px 100px 0px 100px;
+
+}
+.contentbutton{
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	color: 	white;
+	background-color: #407d61;
+	border-radius: 10px;
+
+}
+#footer{
+	display: block;	
+	height: 50px;
+	width: 930px;
+	padding-top: 20px ;
+}
+#footerchild1{
+	display: block;
+	margin: 0px 350px 0px 350px;
+	
+}
+#footerchild2{
+	display: block;
+	margin: 10px 5px 0px 5px;
+	padding-left: 230px;
+
+}
+.footerimage{
+	width: 25px;
+	height: 25px;
+	/*padding: 5px;*/
+}
+.vertalign{
+	display: inline-block;
+	vertical-align: middle;
+}
