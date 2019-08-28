@@ -1,0 +1,45 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#container{
+	margin: 0px auto;
+	width: 90%;
+	padding-top: 2%;
+}
+h1,p{
+	background-color: #b3b3b3;
+	border: 1% solid #d0c4a1;
+	border-spacing: 5%;
+	margin-top: 2%;
+	padding: 10px;
+}
+h1{
+	font-weight: bolder;
+	margin: 0px auto;
+}
+.viewport{
+	background-color: #ffff9a;
+	border: 1% solid #b3b3b3;
+	border-spacing: 5%;
+	margin-top: 2%;
+	padding: 10px;
+}
+	 .mobile {display: none;}
+     .tablet {display: none;}
+     .desktop {display: inline;}
+@media only screen and (max-width:400px){
+     /* we will set these stylings only if the device is a screen with a width of 480px or less */
+     .mobile {display: inline;}
+     .tablet {display: none;}
+     .desktop {display: none;}
+}
+@media only screen and (min-width: 401px) and (max-width: 800px){
+     /* we will set these stylings only if the device is a screen with a width of 480px or less */
+     .mobile {display: none;}
+     .tablet {display: inline;}
+     .desktop {display: none;}
+}
+     
+
+
